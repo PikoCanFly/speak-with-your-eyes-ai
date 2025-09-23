@@ -1,0 +1,18 @@
+export const appState = {
+    faceLandmarker: null,
+    lastVideoTime: -1,
+    startTime: null,
+    isPatternModeActive: false,
+    showFaceMesh: false,
+    voiceAssistanceEnabled: false,
+    blinkFrameCounter: 0,
+    noseYHistory: [],
+    nodCooldownCounter: 0,
+    turnCooldownCounter: 0,
+    consecutiveNods: 0,
+    nodResetTimer: null,
+    morsePattern: "",
+    gestureSequence: "",
+    gestureSequenceTimer: null,
+    backspaceIntervalId: null, 
+};

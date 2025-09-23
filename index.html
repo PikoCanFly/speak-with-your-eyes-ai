@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blink, Nod & Turn Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Content Area -->
+    <div id="main-content">
+        <div id="video-container">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="output_canvas" width="640" height="480"></canvas>
+        </div>
+        <div id="cheat-sheet">
+            <div id="cheat-sheet-content"></div>
+        </div>
+    </div>
+
+    <!-- Status and Display Area -->
+    <div id="status-container">
+        <div id="status">Initializing...</div>
+        <div id="timer">Time: 00:00</div>
+        <div id="error"></div>
+        <div id="pattern-display"></div>
+        <div id="translation-display"></div>
+    </div>
+
+    <!-- Controls Area -->
+    <div id="controls-container">
+        <button id="toggle-cheat-sheet">Toggle Morse Guide</button>
+        <div class="toggle-switch">
+            <input type="checkbox" id="toggle-mesh">
+            <label for="toggle-mesh">Show Face Mesh</label>
+        </div>
+        <div class="toggle-switch">
+            <input type="checkbox" id="toggle-sound">
+            <label for="toggle-sound">Sound</label>
+        </div>
+    </div>
+
+ <footer>
+        <a href="https://youtu.be/LB8nHcPoW-g" target="_blank" class="footer-link">
+        &#9654; The Project Video </a>         
+    </footer>
+
+
+    <!-- Import main JavaScript module -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
