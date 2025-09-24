@@ -12,7 +12,7 @@ What if you could speak with your eyes? This project makes it possible. Using th
 
 [![Blink Morse Code Demo GIF](assets/showcase.gif)](https://youtu.be/LB8nHcPoW-g)
 
-*Click the GIF above to watch the full YouTube video explaining how it was built.*
+*Click the GIF above to watch the full [YouTube video](https://youtu.be/LB8nHcPoW-g) explaining how it was built.*
 
 ---
 
