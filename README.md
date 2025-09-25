@@ -41,7 +41,7 @@ The magic is in translating subtle facial movements into discrete, intentional a
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/PikoCanFly/speak-with-your-eyes-ai.git
     ```
 2.  **Navigate to the directory:**
     ```bash
