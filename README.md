@@ -45,7 +45,7 @@ The magic is in translating subtle facial movements into discrete, intentional a
     ```
 2.  **Navigate to the directory:**
     ```bash
-    cd your-repo-name
+    cd speak-with-your-eyes-ai
     ```
 3.  **Start a local server.** This is required to handle the ES6 JavaScript modules.
     *   **Using Python:**
