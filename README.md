@@ -1,20 +1,28 @@
 
 # Blink, Nod & Turn: A Morse Code Communicator
 
+[![Blink Morse Code Demo GIF](assets/showcase.gif)](https://youtu.be/LB8nHcPoW-g)
+
+
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-Face%20Landmarker-orange?style=for-the-badge&logo=google)](https://mediapipe.dev/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://en.wikipedia.org/wiki/HTML5)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://en.wikipedia.org/wiki/CSS3)
 
-### ➡️ [**Try the Live Demo Here!**](https://fantastic-hamster-94cff7.netlify.app/) ⬅️
+
 
 What if you could speak with your eyes? This project makes it possible. Using the power of browser-based AI, this application tracks 478 facial landmarks in real-time to translate your blinks, nods, and head turns into Morse code, allowing you to communicate without a keyboard.
 
-[![Blink Morse Code Demo GIF](assets/showcase.gif)](https://youtu.be/LB8nHcPoW-g)
 
-*Click the GIF above to watch the full [YouTube video](https://youtu.be/LB8nHcPoW-g) explaining how it was built.*
+*watch the YouTube video Explaining how the project was made:*
+
+[![Watch the video](https://img.youtube.com/vi/LB8nHcPoW-g/hqdefault.jpg)](https://youtu.be/LB8nHcPoW-g) 
+
+
 
 ---
+
+
 
 ## ✨ Features
 
@@ -36,7 +44,7 @@ The magic is in translating subtle facial movements into discrete, intentional a
 2.  **Nod Detection:** To avoid false positives from minor head jitters, the app uses a "sliding window" technique. It records the Y-position of the nose tip over the last 15 frames. A nod is only registered if the difference between the highest and lowest points in that window exceeds a specific movement threshold.
 
 3.  **Turn Detection:** The app calculates the total width between the edges of the cheeks (landmarks 234 and 454). It then calculates a "turn ratio" based on the nose tip's position relative to the cheeks. When looking straight, the ratio is ~0.5. A turn is detected when the ratio goes above `0.65` or below `0.35`.
-
+### ➡️ [**Try the Live Demo Here!**](https://fantastic-hamster-94cff7.netlify.app/) ⬅️
 ## 🚀 How to Run Locally
 
 1.  **Clone the repository:**
