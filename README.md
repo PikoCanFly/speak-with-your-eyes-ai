@@ -77,8 +77,3 @@ Like this project? It was a lot of fun to build. Any support is greatly apprecia
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Acknowledgements
-
--   This project would not be possible without the incredible open-source work from the [MediaPipe](https://mediapipe.dev/) team.
--   Inspired by the bravery of [Jeremiah Denton](https://en.wikipedia.org/wiki/Jeremiah_Denton).
