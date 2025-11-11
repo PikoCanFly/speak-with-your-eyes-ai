@@ -14,9 +14,6 @@
 What if you could speak with your eyes? This project makes it possible. Using the power of browser-based AI, this application tracks 478 facial landmarks in real-time to translate your blinks, nods, and head turns into Morse code, allowing you to communicate without a keyboard.
 
 
-*watch the YouTube video Explaining how the project was made:*
-
-[![Watch the video](https://img.youtube.com/vi/LB8nHcPoW-g/hqdefault.jpg)](https://youtu.be/LB8nHcPoW-g) 
 
 
 
