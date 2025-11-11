@@ -19,8 +19,11 @@ What if you could speak with your eyes? This project makes it possible. Using th
 
 [![Watch the video](https://img.youtube.com/vi/LB8nHcPoW-g/hqdefault.jpg)](https://youtu.be/LB8nHcPoW-g) 
 
----
+## 🔗 Live Demo
 
+Experience the app in your browser—speak with your eyes now:
+
+[➡️ Try the Live Demo Here!](https://fantastic-hamster-94cff7.netlify.app/)
 
 
 ## ✨ Features
