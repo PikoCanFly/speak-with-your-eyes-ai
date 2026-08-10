@@ -65,14 +65,6 @@ The magic is in translating subtle facial movements into discrete, intentional a
 
 4.  Open your browser and navigate to `http://localhost:8000` (or the address your server provides).
 
-## Support
-
-<a href="https://ko-fi.com/pikocanfly/tip" target="_blank">
-  <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Support Me on Ko-fi" style="border:0px;height: 60px !important;width: 217px !important;" >
-
-</a>
-
-Like this project? It was a lot of fun to build. Any support is greatly appreciated!
 
 ## License
 
